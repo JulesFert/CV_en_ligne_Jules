@@ -1,0 +1,137 @@
+:root {
+--color1: white;
+--color2: #E06B46;
+--color3: #1F52E0;
+--color4: #78E019;
+--color5: #539418;
+}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*font-family: 'Permanent Marker', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Permanent+Marker&display=swap');
+/*font-family: 'Alata', sans-serif;*/
+
+@media screen and (max-width: 1024px)
+{
+    #liseret{
+        display: none;
+    }
+
+    #corps_page{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    #experiences{
+        font-size: 0.8em;
+    }
+}
+body {
+/* background: url(photos/fond_bleu.jpg); */
+font-family: 'Alata', sans-serif;
+font-size: 1.3em;
+color: black;
+line-height: 22px;
+text-align: justify;
+}
+
+#corps_page{
+    display: flex;
+    height: 800px;
+    width: 95%;
+    }
+
+#liseret{
+    background-color: #1F52E0;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    height: 300px;
+    min-width: 250px;
+    width: 300px;
+    color: white;
+}
+#liseret img{
+    border-radius: 10px;
+    border: 2px white solid;
+}
+
+#liseret p{
+    margin-top: -3px;
+    font-size: 0.6em;
+    text-align: center;
+    width: 150px;
+}
+
+h1 {
+text-align: center;
+font-family: 'Alata', sans-serif;
+text-decoration: underline;
+text-transform: uppercase;
+}
+
+figure {
+text-align: right;
+}
+
+h2 {
+color: black;
+text-decoration: underline;
+}
+
+#experiences {
+border: 3px black dotted;
+width: 70%;
+margin: 10px;
+padding-left: 5px;
+padding-right: 5px;
+background: silver;
+overflow: scroll;
+}
+.biocoop {
+text-decoration: underline;
+color: black;
+}
+mark {
+background: white;
+text-decoration: underline;
+background: silver;
+}
+/*.biocoop2 {
+padding: 8px;
+border: 3px black solid;
+border-radius: 10px;
+}*/
+.recup {
+color: black;	
+text-decoration: underline;
+}
+.oiseaux {
+text-decoration: underline;
+}
+.competences {
+padding-left: 5px;
+padding-right: 5px;	
+border: 3px black dotted;
+width: 70%;
+margin: 10px;
+background: silver;
+}
+.formations{
+padding-left: 5px;
+padding-right: 5px;	
+border: 3px black dotted;
+width: 70%;
+margin: 10px;
+background: silver;
+}
+.interets {
+padding-left: 5px;
+padding-right: 5px;	
+border: 3px black dotted;
+width: 70%;
+margin: 10px;
+background: silver;
+}
